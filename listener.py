@@ -27,6 +27,9 @@ special_old_pairs = {'St': " Numpad6 ",
 if os.path.exists(file_path):
     os.rename(file_path, 'output_' + datetime.now().strftime("%Y%m%d_%H%M%S") + '.txt')
 
+# make the default output.txt have the datetime too, before killing of terminal
+file_path = 'output_.' + datetime.now().strftime("%Y%m%d_%H%M%S") + '.txt'
+
 def write_line(stamp):
     with open(file_path, 'a') as file:
         file.write(stamp)
