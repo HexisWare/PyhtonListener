@@ -1,5 +1,0 @@
- Numpad1 Bg 08:28:42
- Numpad1 Bg 08:28:43
- Numpad6 St 08:28:46
- Numpad7 Hl 08:28:46
- Numpad8 Ct 08:28:47
